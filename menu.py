@@ -5,5 +5,5 @@ def show_menu():
     print("3. Backup Data")
     print("4. Restore Data")
     print("5. Exit")
-
-    return input("Choose an option: ")
+    choice = input("Select an option (1-5): ")
+    return choice
